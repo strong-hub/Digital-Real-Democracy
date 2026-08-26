@@ -4,6 +4,8 @@
 
 > **An open platform and protocol for Digital Real Democracy, built on powerful computing infrastructure and superintelligent agents — enabling individuals to directly exercise their sovereign decision-making authority at scale.**
 
+[中文](README.zh-CN.md)
+
 ---
 
 ## What is DRD?
@@ -566,7 +568,7 @@ The project will gradually be organized around the following layers:
 ├── reference-implementation/   # Reference implementation
 ├── research/                   # Ongoing research
 ├── proposals/                  # New proposals and amendments
-└── tests/                      # Protocol and implementation tests
+├── tests/                      # Protocol and implementation tests
 └── LICENSE
 ```
 
