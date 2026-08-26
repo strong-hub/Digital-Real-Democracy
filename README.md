@@ -346,9 +346,9 @@ It is envisioned as an open platform consisting of multiple layers:
 
 ```text
 ┌──────────────────────────────────────────────┐
-│              DRD PLATFORM                   │
+│                DRD PLATFORM                  │
 │                                              │
-│  Individuals    AI Agents    Representatives│
+│  Individuals    AI Agents    Representatives │
 │       │              │              │        │
 │       └──────────────┼──────────────┘        │
 │                      │                       │
@@ -360,7 +360,7 @@ It is envisioned as an open platform consisting of multiple layers:
 │        │             │             │         │
 │        └─────────────┼─────────────┘         │
 │                      │                       │
-│               Verification                   │
+│                Verification                  │
 │                      │                       │
 │                 Public Audit                 │
 └──────────────────────────────────────────────┘
@@ -546,26 +546,27 @@ The project will gradually be organized around the following layers:
 ```text
 /
 ├── README.md
+├── README.zh-CN.md
 │
-├── docs/
-│   ├── constitution/
-│   │   ├── en/
-│   │   └── zh-CN/
-│   │
-│   ├── philosophy/
-│   ├── governance/
-│   ├── identity/
-│   ├── delegation/
-│   ├── agents/
-│   ├── voting/
-│   └── verification/
+├── docs/                       # Constitutional and explanatory documents
+│   ├── constitution/           # Constitutional principles
+│   ├── philosophy/             # Philosophy and manifesto
+│   ├── governance/             # Governance
+│   ├── identity/               # Identity and eligibility
+│   ├── delegation/             # Delegation
+│   ├── agents/                 # Personal AI Agents
+│   ├── voting/                 # Voting
+│   ├── verification/           # Verification and audit
+│   └── security/               # Security and threat models
 │
-├── specs/
-│
-├── protocol/
-│
-├── reference-implementation/
-│
+├── specs/                      # Formal protocol specifications
+├── protocol/                   # Protocol implementation
+├── platform/                   # DRD platform
+├── agents/                     # Agent implementations and SDKs
+├── reference-implementation/   # Reference implementation
+├── research/                   # Ongoing research
+├── proposals/                  # New proposals and amendments
+└── tests/                      # Protocol and implementation tests
 └── LICENSE
 ```
 
